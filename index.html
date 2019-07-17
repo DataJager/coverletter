@@ -1,6 +1,5 @@
 
-<html>
-<head>
+<html><head>
 
   <script type="text/javascript">
   event.preventDefault();
@@ -11,6 +10,12 @@
       var skills1 = "<strong>" + document.getElementById("skills1").value +"</strong>";
       var skills2 =  "<strong>" + document.getElementById("skills2").value + "</strong>";
       var project =  "<strong>" + document.getElementById("project").value +"</strong>";
+     var myCompany =  "<strong>" + document.getElementById("my_company").value +"</strong>";
+     var coolProject =  "<strong>" + document.getElementById("cool_project").value +"</strong>";
+     var phoneNumber =
+"8675309";
+var mySignature =
+"Some guy with sweet skills<br>" + phoneNumber + "<br>sweetsweetbacks@badassskills.com";
 
       var string = "";
       string += "I was searching on Indeed.com and ";
@@ -24,22 +29,17 @@
       string += skills2;
       string += " could help you create your next amazing ";
       string += project;
-      string += ". <BR><BR> I've accumulated quite a bit of experience in my time as an ";
-      string += "IT Administrator and DevOps Engineer, but specifically you might ";
-      string += "be interested in my most recent posting at The Control Group where ";
-      string += "I handled maintaining their website back-end in Rackspace and AWS ";
-      string += "which is primarily a series of over 300 Ubuntu servers with a Salt ";
-      string += "master handling automation and code as infrastructure.";
+      string += ". <BR><BR> I've accumulated quite a bit of experience in my time as a ";
+      string += position + ", but specifically you might ";
+      string += "be interested in my most recent posting at " + myCompany + "where I " + coolProject +". ";
       string += "When you have time, I’d like to speak with you more regarding this opportunity."
-      string += "I know the web-facing world moves very quickly, so to facilitate that fluidity here is my contact number (281 851 9104) Please let me know if you’d like to discuss this ";
+      string += "I know the video editing world moves very quickly, so to facilitate that fluidity here is my contact number " + phoneNumber + " Please let me know if you’d like to discuss this ";
       string += position;
       string += " position in person. I look forward to hearing how I can be involved in ";
       string += company;
       string += "'s future."
       string += " <br><br>";
-      string += "Alexander Smith, CISSP, CCNP<br>";
-      string += "281 851 9104<br>";
-      string += "alexandersmithccna@gmail.com";
+			string += mySignature;
 
 
       var myDiv = document.getElementById("letter")
@@ -52,15 +52,17 @@
 <body onload="appendMessage()">
 
 <form id = "variables">
-Position:..<input id = "position"  style='width:400px' value = "DevOps Engineer"></input><br>
-Company:<input id = "company"  style='width:400px' value = "____"></input><br>
-skills1:.....<input id = "skills1" style='width:400px' value = "________"></input><br>
-skills2:.....<input id = "skills2" style='width:400px' value = "________"></input><br>
-Project:....<input id = "project" style='width:400px' value = "site"></input><br>
+Position:..<input id = "position"  style='width:400px' value = "Video Editor"><br>
+Company:<input id = "company"  style='width:400px' value = "Weyland Yutani"><br>
+skills1:.....<input id = "skills1" style='width:400px' value = "Adobe After Effects"><br>
+skills2:.....<input id = "skills2" style='width:400px' value = "3DSMax"><br>
+Project:....<input id = "project" style='width:400px' value = "site"><br>
+My Company:<input id = "my_company" value="boomBangBoomProductions"><br>
+Cool Project:..<input id="cool_project" value="made an awesome video with lightsabers and explosions"><br>
+
 
 <button onclick="appendMessage()">Make</button>
-<div id="letter"
-.
+<div id="letter">
 </div>
 </body>
-</html
+  </html>
