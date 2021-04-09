@@ -1,0 +1,2284 @@
+Stronghold 2 Economic Studies
+
+By Colonel Sanders Lite
+
+Version: 1.0
+
+                    SSSSS                                                 22222
+                    S   S                                                 2   2
+                     S   TTTTT RRRR   OO  NN   N  GGGG H  H  OO  L    DDD    2
+          ..          S  T T T R   R O  O N N  N G     H  H O  O L    D  D  2
+        X0B0MMMZ       S   T   RRRR  O  O N  N N G  GG HHHH O  O L    D  D 2
+       Z0X7XXXS@M   S   S  T   R R   O  O N   NN G   G H  H O  O L    D  D2   2
+      S0X227i.  B8  SSSSS  T   R  R   OO  N    N  GGG  H  H  OO  LLLL DDD 22222
+     :BXaZS7XX; XM;
+     XXX; .S:.ZS.8:
+    ,B22. .:  ;r a
+.  72  SXSS2XX7 ;0
+7WWBa,:;i;S7r7ii@
+;i;;XZ8ZaSXSaXX2
+;ir7r,,;7X2X;S22
+;,;XXZ7:i:;rX7r7W8SW2,
+r;rXX2ZS:::i:i:;Sa2rZMi
+7aaXXX2Xr;;77XXXriSXiaX
+ri72XX7iX;,;rXX7, .X;iBZ
+777SXr;X7riiirXXi;.;; a.
+7rSSXSXX77rrr7XSS;:  r;
+XXX7XXrrrrr;rrXX:rr;;.
+77SXXXr7rrrrr7X;;7.r;X;
+77XSS7r77rrrrrXX;.:iiar
+SSrX7rXX77rr777Si;r; ;:
+X2rXX777rrr7777XX.XS2a   ;
+X2;r7i;;;;ir7X77SS77X7  02
+XX77Sr7rr;ir7XX77X7rX: W
+XS2;;iirr7r7rr7r777rX8Z
+XXr;,::;XSSSXSXSXSXX7Xr
+XrXZXXXX7rrXXXX7777;SSi
+;;2XXr,:rrXXX7XXXXX77
+;7XX7;,i;r7777XXXXX77i.
+
+
+This Guide is unofficial.  I am not personally involved, in any way shape or
+form, with the guys that made the game.  All trademarks and copyrights
+contained in this document are owned by their respective trademark and
+copyright holders. So long as you're not selling it, I don't care what you do
+with this guide.  I take no responsibility for anything.
+
+
+Table of Contents
+0: Table of Contents, Version History, Etc
+1: Assumptions and Methods
+2: Food
+     2.01 Consumption
+     2.02 Hunting
+     2.03 Apples
+     2.04 Dairy
+     2.05 Bread Production
+     2.06 Overall Rankings
+          2.06.01: Food Production Ranked by Output per Tile
+          2.06.02: Food Production Ranked by Output per Worker
+          2.06.03: Food Production Ranked by Output per Wood Cost
+     2.07 Conclusions on Food Production
+     2.08 Food Production Planning With Examples
+3: Industry
+     3.01: Saw Pits
+     3.02: Stone Quarries and Iron Mines
+     3.03: Weaving
+     3.04: All Weapons Production Except Leather Armor
+     3.05: Leather Armor Production
+     3.06: Pitch Rigs
+     3.07: Carters’ Post
+     3.08: Chandler's Workshop & Beehives
+     3.09: Ale
+4: Royal Foods
+     4.01: Wine
+     4.02: Eel Ponds
+     4.03: Pigs Farms and Vegetable Gardens
+5: Notes on other assorted buildings
+     5.01: Musicians Guild
+     5.02: Church
+     5.03: Jousting
+     5.04: Fair
+     5.05: Treasury
+     5.06: Kitchen
+     5.07: Lady's Chambers
+     5.08: Market
+     5.02: Inn
+6: Gong
+7: Crime
+     7.01: Easily Catching Criminals
+8: Rats
+9: Trade
+10: Taxes
+11: Using various happiness boosters to support taxes
+     11.01: Food Vs Taxes:
+     11.02: Candles Vs Taxes:
+     11.03: Ale Vs Taxes:
+     11.04: Food VS Other Sources of Happiness:
+12: Conclusions on Taxes
+13: Unit Statistics
+     13.01: Unit Costs
+          13.01.01: Peasants
+          13.01.02: Spearmen
+          13.01.03: Archers
+          13.01.04: Crossbowmen
+          13.01.05: Macemen
+          13.01.06: Pikemen
+          13.01.07: Swordsmen
+          13.01.08: Knights
+          13.01.09: Mounted Knights
+          13.01.10: Pictish Boat Warriors
+          13.01.11: Outlaw
+          13.01.12: Light Cavalry
+          13.01.13: Axe Thrower
+          13.01.14: Assassin
+          13.01.15: Horse Archer
+          13.01.16: Berserker
+          13.01.17: Thief
+          13.01.18: Monk
+          13.01.19: Warrior Monk
+     13.02: Unit Hierarchy
+     13.03: Military Conclusions
+14: Kingmaker Population Limits
+
+15: Reference (Basically the body of this guide highly condensed)
+     15.01: Food Consumption Rates
+     15.01: Food Generation by Type
+     15.02: Food Overall Rankings
+          15.02.01: Food Production Ranked by Output per Tile
+          15.02.02: Food Production Ranked by Output per Worker
+          15.02.03: Food Production Ranked by Output per Wood Cost
+     15.03: Sample Food Production Plans
+     15.04: Industry Ratios
+          15.04.01: Stone Quarries and Iron Mines
+          15.04.02: Weaving
+          15.04.03: Leather Armor Production
+          15.04.04: Chandler's Workshop & Beehives
+          15.04.05: Ale
+     15.04: Royal Foods
+          15.04.01: Wine
+          15.04.01: Eel Ponds
+          15.04.01: Pigs Farms and Vegetable Gardens
+     15.05: Market Values of Trade Goods
+     15.06: Unit Statistics
+          15.06.01: Unit Costs
+          15.06.02: Unit Hierarchy
+     15.07: Kingmaker Population Limits
+
+
+
+1: Assumptions and Methods
+
+     Everything in this document was based on game version 1.4.1.
+
+     All Costs/Building footprint info comes straight from the game.  The
+     overlap area is still considered part of the building, since not all
+     buildings can overlap effectively.
+
+     All industries where laid out optimally for their specific requirements,
+     unless otherwise noted.
+
+     All factors that may influence productivity where removed/reduced as much
+     as possible.  The church, fair and joust are some examples of things that
+     effect productivity.  The tests which didn't involve gong and crime where
+     run on a custom map with these factors turned off, so as to prevent them
+     from becoming an issue.
+
+     In a few instances, the numbers where slightly skewed to make the math
+     come out nice and clean.  An example would be the food consumption rates
+     below.  This is always rounded on the side of caution, so as to avoid
+     production shortages.
+
+     Where Possible, the result is shown first, with data and math following.
+
+     All statistics are presented in such a fashion where higher is better.
+
+     During actual game play, there is a myriad of factors that will influence
+     production, and so the numbers below should be taken simply as a starting
+     place.  For example, if your wheat farms are not producing enough wheat to
+     keep your mill busy at all times, add a wheat farm.
+
+
+
+2: Food
+
+     2.01 Consumption
+          Important Notes:
+
+               I had been getting very inconsistent results in this area, with
+               consumption on normal rations ranging from 0.8 to 2.5
+               food/year/peasant, depending on the map.  After further testing,
+               I thought that the correlation was that the troops where in fact
+               eating as well.  This could be simply demonstrated by loading a
+               developed castle, disbanding your whole army, and noting that
+               food consumption did not change.  Further testing debunked this
+               however.  More specifically, I disbanded 10 soldiers on a small
+               test castle with a population of 24 and the food consumption
+               rate was altered with the new higher population, confusing the
+               hell out of me.
+
+               After a whole lot of trial and error, I have come to the
+               definitive conclusion that the amount of food peasants eat is
+               actually a scaling consumption rate.  For some reason, when you
+               just have a handful of peasants, each peasant eats several times
+               the amount of food they would eat if your population where at
+               200 peasants.  The practical effect of this is that food
+               consumption plateaus when your population is around 128.  Your
+               peasants just won't eat any more food no matter how many huts
+               you add.  In fact, they will eat *less* if you add more huts.
+               Perhaps this is an attempt to make it easier to manage larger
+               cities, harder to mange smaller towns, or even an attempt to
+               imply that the populace is getting more self-sufficient, and
+               doesn't need the lord to manage their food so much.
+
+               Women and children do not eat they're just eye candy, and have
+               *very little* effect on the actual game.  Hostile military units
+               don't even attack them.  The only effect they have, that I have
+               noticed, is that they occupy seats at jousts, fairs, and at
+               church.
+
+               The lord and lady may or may not eat from the granary as well.
+               If they do, their toll is practically incalculable as it is just
+               too insignificant.
+
+
+          As mentioned Earlier, food is consumed on a scaling consumption rate.
+          For anybody that actually wants my calculations, the full math will
+          be shown nearer to the end of this section.  The results will be
+          shown in a handy table form here first though.  These numbers are
+          rounded slightly, to make it a little more readable, and for safety
+          reasons.
+
+                         Food Consumed/Year
+          Population     on Normal Rations
+              8                25
+             16                50
+             24                75
+             32                85
+             40                100
+             48                115
+             56                125
+             64                135
+             72                145
+             80                155
+             88                160
+             96                165
+            104                165
+            112                170
+            120                170
+            128                175
+            136                175
+            144                170
+            152                170
+            160                165
+            168                165
+            176                160
+            184                160
+            192                155
+            200                150
+
+          The game population limit is 432 peasants.  However, I have
+          personally never built a castle which actually has that number of
+          peasants.  Given that your campfire limit is almost always 23
+          peasants (It can be changed in a custom scenario, but I haven't
+          noticed a scenario where it was actually done yet), and the fact that
+          space is usually too limited to actually supply 177 jobs, I find it
+          to be a bit of a struggle to even get your population up to 200.  In
+          any case, for populations past 200, it should be clear which way the
+          trend is going just by looking at the table.  I didn't test
+          populations over 200 very thoroughly, however if you load a saved
+          game with a fully developed castle and a large army and disband the
+          whole army, your population will jump up dramatically in most cases,
+          while food consumption will remain unchanged.  I'm not positive, but
+          I think there might be a hard cap somewhere down the line.
+
+          I also did some checking to be sure that half, normal, extra, and
+          double rations are in fact what they say they are.  Their names do
+          not misrepresent themselves.
+
+          On half rations multiply the Food Consumed/Year above by 0.5.
+          On extra rations multiply the Food Consumed/Year above by 1.5.
+          On double rations multiply the Food Consumed/Year above by 2.0.
+
+          In the second granary panel, the game tells you the total number of
+          units of food, along with how long (in months) this food will last
+          given the current ration level.  I did check that these numbers are
+          indeed accurate, and they are.
+
+
+          And now my math.  If you’re not interested in checking my work, just
+          skip it ;).
+
+          To figure out a formula which would give food/peasant/year, I first
+          needed some data points to plot.  To that end, I simply spot-checked
+          several consumption rates by hand.  The formula to determine what the
+          consumption rate is with a known population is:
+
+          Units of Food in Granary / population / listed months supply * 12
+
+          So, here are all the data points I tested by hand (I didn't round
+          when typing this document, just truncated the decimals to the
+          thousandths place):
+          Pop
+           8:  2684 /   8 / 1416 * 12 = 2.805
+           16: 2554 /  16 /  683 * 12 = 2.804
+           24: 2541 /  24 /  451 * 12 = 2.817
+           32: 2526 /  32 /  363 * 12 = 2.609
+           48: 2507 /  48 /  259 * 12 = 2.410
+           64: 2470 /  64 /  213 * 12 = 2.175
+           96: 2414 /  96 /  184 * 12 = 1.639
+          128: 2334 / 128 /  175 * 12 = 1.250
+          160: 2227 / 160 /  167 * 12 = 1.000
+          192: 2147 / 192 /  161 * 12 = 0.833
+          200: 2120 / 200 /  159 * 12 = 0.800
+
+
+          Next, I fed these numbers into a calculator (a nice one), and used
+          the quadratic fitter to calculate all the values in between.  It
+          turned out very slightly inaccurate, but frankly, it's good enough
+          considering the application.
+
+          It came up with this formula, which again, I know is slightly
+          inaccurate, but its pretty close:
+          Y = 2.8537448367564e-5X^2 + -0.01742537197608x+3.1027277032641
+
+          Which was used to generate this table:
+
+          Population (X)   Food/Person/Year (Y)
+              8               2.9652
+             16               2.8312
+             24               2.7010
+             32               2.5743
+             40               2.4514
+             48               2.3321
+             56               2.2164
+             64               2.1044
+             72               1.9960
+             80               1.8913
+             88               1.7903
+             96               1.6929
+            104               1.5992
+            112               1.5091
+            120               1.4226
+            128               1.3394
+            136               1.2607
+            144               1.1852
+            152               1.1134
+            160               1.0452
+            168               0.9807
+            176               0.9198
+            184               0.8626
+            192               0.8091
+            200               0.7591
+
+          Multiplying the Population and the Food/Person/Year gives the final
+          table:
+
+                         Food Consumed/Year
+          Population     on Normal Rations
+              8                24
+             16                45
+             24                64
+             32                82
+             40                98
+             48                111
+             56                124
+             64                134
+             72                143
+             80                151
+             88                157
+             96                162
+            104                166
+            112                169
+            120                170
+            128                171
+            136                171
+            144                170
+            152                169
+            160                167
+            168                164
+            176                161
+            184                158
+            192                155
+            200                152
+
+            This table was rounded into the final table above.
+
+
+     2.02 Hunting
+          Each Hunters Post generates 8.5 units of food per year hunting only
+          birds.
+
+          It would be practically impossible to reliably predict the amount of
+          food brought in by hunting other game types due to their migratory
+          nature.  I did watch a few hunters hunt deer for a while however.  My
+          impression is that they actually produce *less* or about the same
+          food as they do when hunting pheasant.  The amount of time it takes
+          for the hunter to go from the hunter's post, to the deer he just
+          shot, back to his post, to the granary, and back to his post again is
+          just too much to make it look worthwhile.
+
+          There is one thing to seriously watch out for when hunting however.
+          Certain structures, mainly the stone structures, will block a
+          hunter's shots when they're hunting pheasants.  When this happens,
+          the hunters will have to start wandering around in order to get their
+          game, which is very bad for your food production.  Be careful not to
+          place hunter’s posts near buildings which are likely to have this
+          effect.  The keep seems to be especially bad about this.
+
+          10 Hunters hunting only birds and placed right next to the granary
+          produced 170 units of meat in 2 years.
+          (1065 - 895) / 2 / 10
+
+          Statistics:
+          Units of food produced per square of space taken up (2X3): 1.417/tile
+          Units of food produced per number of workers: 8.5/worker
+          Units of food produced per resources cost up (5 wood): 1.7/wood
+
+
+     2.03 Apples
+          Each Apple Orchards generates 32 units of food per year.
+
+          Beware that apple placement is bugged.  You an already placed orchard
+          can only be overlapped on its eastern and southern edges.  I know
+          that there's no built in compass in the game, but pressing "k" on
+          your keyboard will orient the screen with the keeps facing.  When
+          this happens, the top of the screen is almost always north.  In
+          practical terms, suppose you place 3 rows of 3 apple orchards using
+          their overlap.  If the center orchard is destroyed, you will not be
+          able to replace it without also deleting and replacing all orchards
+          to its south and east.  In this example, you would have to delete 3
+          more orchards to replace the middle one.  Given their cost and how
+          quickly they start producing, this is usually not such a big deal
+          however.
+
+          10 Apple Orchards placed right next to the granary produced 640 units
+          of apples in 2 years.
+          (5396 - 4756) / 2 / 10
+
+          Statistics:
+          Units of food produced per square of space taken up (6X6): 0.889/tile
+          Units of food produced per number of workers: 32/worker
+          Units of food produced per resources cost up (5 wood): 6.4/wood
+
+     2.04 Dairy
+          Each Dairy Farm generates 29.5 units of food per year.
+
+          Note that if tanners are killing your cattle, it will dramatically
+          impact the amount of cheese produced and would make a reliable
+          prediction of cheese output impossible.
+
+          10 Dairy Farms placed right next to the granary produced 590 units of
+          cheese in 2 years.
+          (3447 - 2857) / 2 / 10
+
+          Statistics:
+          Units of food produced per square of space taken up (8X5): 1.356/tile
+          Units of food produced per number of workers: 29.5/worker
+          Units of food produced per resources cost up (10 wood): 2.95/wood
+
+
+     2.05 Bread Production
+          1 mill + 3 farms + 10 bakeries (called a bread block from now on)
+          generated 280 units of bread per year. (3625-3067)/2
+
+          The most important thing to understand about bread production is that
+          the whole operation is centered on the mill.  Unmilled wheat is
+          practically worthless, and bakers without flour are just a waste of
+          resources and manpower.  In other words, the mill determines how many
+          wheat farms you need, and how many bakeries you can have.  To this
+          end, it's critical that the mill is optimally placed.  It should be
+          placed so that the millers can beeline from the stockpile entrance to
+          the wheat drop-off point and the flour pickup point.  Be sure and pay
+          close attention to the direction the mill is facing.
+
+          In an ideal setup, 1 mill supports about 2 wheat fields with a very
+          slight excess of wheat production.  In actual practice, in your
+          castle estate, you have the occasional gong pile killing the farmers,
+          farmers turning to crime, entertainment, etc.  3 wheat fields fit the
+          bill more correctly in this case, assuming that the wheat fields are
+          immediately next to the stockpile.
+
+          1 mill supports 8 bakeries, using the flour as fast as you can mill
+          it.  Again, note that this was in an ideal situation.  The realities
+          of playing the game tend to make this number slightly inaccurate.  10
+          bakeries per mill tends to be more inline with actual game play.
+
+          Statistics:
+          Units of food produced per square of space taken up (8X5X3 + 4X4 +
+          4X4X10 = 296 squares): 0.946/tile
+          Units of food produced per number of workers (3+3+10): 17.5/worker
+          Units of food produced per resources cost up (15X3 + 20 + 10X10 = 165
+          wood): 0.589/wood
+
+     2.06 Overall Rankings
+          2.06.01: Food Production Ranked by Output per Tile
+               Hunting: 1.417/tile
+               Dairy: 1.356/tile
+               Bread Production: 0.946/tile
+               Apples: 0.889/tile
+
+          2.06.02: Food Production Ranked by Output per Worker
+               Apples: 32/worker
+               Dairy: 29.5/worker
+               Bread Production: 17.5/worker
+               Hunting: 8.5/worker
+
+          2.06.03: Food Production Ranked by Output per Wood Cost
+               Apples: 6.4/wood
+               Dairy: 2.95/wood
+               Hunting: 1.7/wood
+               Bread Production: 0.589/wood
+
+     2.07 Conclusions on Food Production
+          Just looking at the above, it's easy to see that bread is the worst
+          overall method of producing food in the game.  Depending on how you
+          set your economy up, bread is a good mid-late game honor producer,
+          but it's probably too expensive and labor intensive for the early
+          game.  A good option is to have neighboring estates produce bread for
+          you, while focusing on more critical production items in your castle.
+
+          Dairy is a great option for feeding your people, as it finishes in
+          second place for every category.  On the down side, you have to
+          severely limit the number of tanners around and it takes longer to
+          start producing food than apples or hunters.
+
+          Apples are very good as well.  They get started quicker than dairy
+          and so production interruptions are easier to overcome.  At the very
+          least, it is most definitely a good place to start.
+
+          Hunting is pretty bad overall, but it has a huge advantage in that
+          it's easily the most space efficient food producer. It's also easy to
+          get going early on, but not as cheap as the 5 wood cost implies.
+
+     2.08 Food Production Planning With Examples
+
+          When eating multiple food types, the population eats food at the same
+          rate.  The amount of food they eat is evenly distributed across your
+          different food types.  The game doesn't balance their diets according
+          to what you have more of in stock or anything.  If you wish to
+          observe this, load a developed castle with plenty of all food types
+          available and disable their food production.  You can then watch in
+          the granary panel that they always eat one apple, then one bread,
+          then one cheese, then one meat, and then loop.  This means for
+          practical purposes, when you're building your food supply for an
+          honor bonus, you have to be sure that you're bringing in an even or
+          excess amount of food for all types.  If you don't the food types
+          which have a shortage will hover near 0 in your granary, and the
+          honor bonus will be inconsistent.  In my experience, this usually
+          ends up translating to you building more hunters posts than you would
+          otherwise like to build.
+
+          Step by step:
+               The first step in planning your food production is coming up
+               with a reasonable population estimate for the estate.  This will
+               tend to vary somewhat depending on the estate type.  If this is
+               a kingmaker economy, you might want to reference the listed
+               maximum population size per game discussed later in this
+               document.
+
+               Next, determine what ration level you wish to use in your
+               economic plan.  If this is not your castle estate, you have no
+               control over how much the AI feeds its people.  It tends to use
+               double rations whenever their happiness falls, in order to get
+               it back up.  Due to this, I highly recommend that you always
+               plan for double rations in your vassal estates.
+
+               To finally determine how much food needs to be produced
+               annually, reference your desired population on the Food
+               Consumed/Year table and multiply it by the proper ration level
+               multiplier.
+
+               Half ration level multiplier: 0.5.
+               Extra ration level multiplier: 1.5.
+               Double ration level multiplier: 2.0.
+
+
+
+               The second step which needs to be considered in your food
+               production plan is what your food sources will be.  Consider
+               what sources are available (the more the better), if you desire
+               an honor bonus, construction resources available, how much space
+               you have to work with, etc.
+
+
+
+               Finally, you have to determine how many of each structure you
+               need to build to attain these goals.
+
+               First, divide the required annual food production by the number
+               of food sources to determine how much food needs to be produced
+               or exceeded by each industry.
+
+               Next, divide this number by the number of units of food each
+               structure provides for each industry, rounding up.
+
+
+               This can be summarized by using this formula for each food
+               source.
+               Food Consumed * Ration Level / Food Sources / Output of Source
+
+
+
+
+
+          Example:
+               For example sake, let's suppose that in our home estate, we want
+               120 peasants to work with.
+
+               In this case, let's say we just want normal rations.
+
+               Suppose we want to provide our people with a steady stream of
+               apples, cheese, and meat.  Perhaps we'll ship in bread from
+               estates later for the honor bonus, but it's not an immediate
+               concern.
+
+               Last we use this formula to determine how many of each structure
+               we need.
+               Food Consumed * Ration Level / Food Sources / Output of Source
+
+               Apples:
+               170 * 1 / 3 / 32 = 1.77
+
+               Dairy:
+               170 * 1 / 3 / 29.5 = 1.92
+
+               Meat:
+               170 * 1 / 3 / 8.5 = 7
+
+               This leaves us with 2 Apple Orchards, 2 Dairy Farms and 7
+               Hunters Posts.  At least so long as they're all built around the
+               granary in an efficient manner.  At the very least, this gives
+               us a rock solid starting place.
+
+               I have tested this, since writing it, and granary stocks indeed
+               hold steady, with a very marginal growth rate.
+
+
+          Example 2:
+               Imagine you want to develop a vassal estate which exports iron
+               to your castle.  It will have 6 mines (which are as many as it
+               can fit) and 6 oxen to transport the iron to the stockpile.  In
+               addition, you need 3 carters’ posts to ship it home.  The iron
+               industry will take 21 peasants, and producing their food will
+               take a few more.  Don't forget that their population has to be a
+               multiple of 8.  24 (3 huts) is as good a population goal as any
+               for this estate.
+
+               We want double rations, to ensure their happiness is as solid as
+               it can be.
+
+               There is no honor bonus for providing more than one food source
+               in an estate, so we just need one.  Apples are a good balance,
+               so we'll use them.
+
+               Last we use this formula to determine how many orchards we need.
+               Food Consumed * Ration Level / Food Sources / Output of Source
+
+               Apples:
+               75 * 2 / 1 / 32 = 4.6875
+
+               This presents us with a problem however, as there where only 3
+               peasants slotted to find food.  Either we must change the food
+               source, increase the peasants, or remove other buildings.
+
+               Ok, so let's boost the population to 32, which will give a
+               surplus of manpower, and switch them to dairy, just because we
+               can.
+
+               Dairy:
+               85 * 2 / 1 / 29.5 = 5.7627
+
+               So, 6 dairy farms and the problem is solved.
+
+
+          Some Sample Food Plans:
+
+               Plan A:
+                    128+ People eating meat, cheese, and apples on double
+                    rations
+
+                    14 Hunters
+                    4 Dairy
+                    4 Apples
+
+                    Wood: 130
+                    Workers: 22
+                    Squares: 388
+
+               Plan B:
+                    128+ People eating cheese and apples on double rations
+
+                    6 Dairy
+                    6 Apples
+
+                    Wood: 90
+                    Workers: 12
+                    Squares: 456
+
+               Plan C:
+                    128+ People bread on extra rations
+
+                    Bread Block (1 mill + 3 farms + 10 bakeries)
+
+                    Wood: 165
+                    Workers: 16
+                    Squares: 296
+
+               Plan D:
+                    128+ People bread and cheese on double rations
+
+                    Bread Block (1 mill + 3 farms + 10 bakeries)
+                    6 Dairy
+
+                    Wood: 225
+                    Workers: 22
+                    Squares: 536
+
+               Plan E:
+                    128+ People eating bread, meat, cheese, and apples on
+                    double rations
+
+                    11 Hunters
+                    3 Dairy
+                    3 Apples
+                    Bread Block (1 mill + 3 farms + 10 bakeries)
+
+                    Wood: 265
+                    Workers: 38
+                    Squares: 590
+
+               Estate Apples (double rations):
+                    Huts  Population Orchards Wood Workers Squares
+                      1       8         2      10     2       36
+                      2      16         3      15     3       72
+                      3      24         4      20     4      108
+                      4      32         5      25     5      144
+                      5      40         6      30     6      180
+                      6      48         7      35     7      216
+                      7      56         8      40     8      252
+                      8      64         9      45     9      288
+                      9      72         9      45     9      288
+                     10      80        10      50    10      324
+                     11      88        10      50    10      324
+                     12+     96+       11      55    11      360
+
+               Estate Dairy (double rations):
+                    Huts  Population Dairy Farms Wood Workers Squares
+                      1        8          2       20     2       80
+                      2       16          3       30     3      120
+                      3       24          5       50     5      200
+                      4       32          6       60     6      240
+                      5       40          7       70     7      280
+                      6       48          8       80     8      320
+                      7       56          9       90     9      360
+                      8       64         10      100    10      400
+                      9       72         10      100    10      400
+                     10       80         11      110    11      440
+                     11       88         11      110    11      440
+                     12+      96+        11      110    11      440
+
+               Estate Hunting (double rations):
+                    Huts  Population  Hunters  Wood Workers Squares
+                      1       8         6       30     6       36
+                      2      16        11       55    11       66
+                      3      24        16       80    16       96
+                      4      32        20      100    20      120
+                      5      40        24      120    24      144
+                      6      48        27      135    27      162
+                      7      56        30      150    30      180
+                      8      64        32      160    32      192
+                      9      72        34      170    34      204
+                     10      80        36      180    36      216
+                     11      88        38      190    38      228
+                     12+     96+       40      200    40      240
+
+               Estate Bread (double rations):
+                    A bread block will feed up to 72 peasants (9 huts) double
+                    rations.  It will also feed 96+ peasants (12+ huts) extra
+                    rations.
+
+                    For reference, 1 mill + 3 farms + 10 bakeries costs 165
+                    wood, 16 workers, and 296 squares.
+
+               Estate Bread Exporter A:
+                    If your intention is to export bread to your castle estate,
+                    it is best to give the estate other food sources.  Giving
+                    the estate one other food source cuts the amount of bread
+                    they eat in half, 2 other food sources and they eat 1/3rd
+                    their normal amount of bread, and using all available food
+                    sources, they eat 1/4 their normal amount of bread.
+
+                    Let's suppose we need 4 Carters and 16 bread producers for
+                    a total of 20 workers to produce the bread and ship it.
+                    With a population of 24 (3 huts), the peasants will eat 130
+                    bread per year.
+
+                    If you want to reduce this number, by providing apples it
+                    will take 3 orchards to produce apples for 2 food sources.
+                    Dairy farms can be substituted evenly here.  The peasants
+                    in the estate will then be eating 65 bread/year.
+
+                    If you want to use both dairy and apples, to reduce the
+                    amount of bread eaten, you will need 2 dairy farms and 2
+                    orchards.  The peasants in the estate will then be eating
+                    44 bread/ year.
+
+                    Finally, if you want to use dairy, apples, and hunters, to
+                    minimize the amount of bread eaten to the greatest extent
+                    possible, you will need 1 dairy farm, 1 orchard, and 4
+                    hunters.  This means we do not have enough people, and have
+                    to add a hut so that our population is 32 instead of 24.
+                    After this change, we now need 2 dairy farms, 2 orchards,
+                    and 5 hunters. The peasants in the estate will then be
+                    eating 41 bread/year.  The extra effort and expense to
+                    simply save 3 bread/year is dubious at best, but does have
+                    the added benefit of leaving you with 3 spare workers in
+                    the estate to assign wherever there is a shortfall.
+
+
+3: Industry
+     While the above section focused mostly on output vs. various factors, this
+     section will focus on the balance of facilities.  For example, the focus
+     will be on how many weavers should be built per sheep herder, rather than
+     the actual output of a weaver. There will be guidelines for various
+     production goals as well.
+
+
+     3.01: Saw Pits
+          In Stronghold 2, a woodcutter has to go between the trees and his hut
+          only one time and then back to the stockpile to drop off his goods.
+          So as long as the sawpit is somewhere between the trees and the
+          stockpile, it just doesn't matter where it is.
+
+          You may find yourself wanting to cut down specific trees or a group
+          of trees first quite often, so it is important to understand how the
+          AI selects which tree to cut down.
+               A: It never goes to a tree that another woodsman is working on.
+               B: It always goes to the closest tree, "as the crow flies,"
+               which does not contradict rule A above.  This is important
+               because if the guy has to walk around a whole mountain to get to
+               the tree nearest to his pit, he will.
+               C: If you delete a wood cuter who is assigned to a tree, and
+               place a new one in a *very* slightly different spot, the new one
+               may pick a different tree as the game seems to still think it's
+               assigned for a while.
+
+          If you want to remove a tree or trees very quickly simply because
+          they're in the way, and you don't actually need the wood from those
+          trees:
+
+               Place one woodcutter/tree next to the trees.
+
+               Give any still unemployed peasants jobs, even if it's just
+               temporary.
+
+               Once the woodcutters (at least mostly) each have a log either in
+               their cart or sawpit, delete them.
+
+               Quickly rebuild them.
+
+               The peasants will turn back into woodcutters and get a new log
+               without having made a trip to the stockpile.  With practice, you
+               can use this trick to deforest a large area very quickly, but it
+               requires a degree of micromanagement and costs 2 wood per
+               woodcutter per deletion (usually 6).
+
+          In stronghold 2, trees don't grow.  This means that there is a
+          limited amount of wood on the map.  This can be a big problem in some
+          maps (desert maps with limited trade are an extreme example), but not
+          most.  If you played stronghold 1, you might find this to be a most
+          pleasant change, as the ever expanding forests could cause problems
+          in the first title.
+
+     3.02: Stone Quarries and Iron Mines
+          You can only place these on stone and iron deposits respectively.
+          This means you have two options.  First, place your stockpile close
+          to the resources, or second, haul the resources back home the hard
+          way.
+
+          Generally, I find 2-3 oxen per quarry to be a good balance, but it
+          depends entirely on the distance from your quarries/mines to the
+          stockpile.  I recommend that you start with 1 ox per quarry/mine if
+          the stockpile is right near the minerals, two oxen, if your
+          quarries/mines are about a screen away from the stockpile, and three
+          oxen if they further out.  If your quarries/mines are producing
+          resources faster than the oxen can pick it up, add oxen.
+
+     3.03: Weaving
+          Both weavers and shepherds need to be based near the stockpile.  The
+          weaver only goes between their shop and the stockpile.  A shepherd
+          goes to the flock once and the stock pile once for every sheep he
+          sheared (usually 7 times).  A ratio of 4 Sheep herds to 5 weavers
+          seems about right.  However:
+
+          Sheep seem to wander around in a certain distance from the sheep
+          farm.  This distance seems to ignore terrain.  This means that
+          depending on your castle layout and the terrain, it may take the
+          shepherd longer to get to the sheep and bring them back home.  When
+          you have more herds, they seem to roam further than when you just
+          have a few.
+
+          If you're just wanting the cloth for dances, and not to sell, 1 sheep
+          farm and a pair of weavers should be more than ample to supply all
+          demand.
+
+          If you want to export cloth, I suggest you start with an even mix of
+          herds and weavers.  Then, if you are producing excess wool, add
+          weavers until they are using the wool as fast as the herd can provide
+          it.
+
+
+     3.04: All Weapons Production except Leather Armor
+          Your arms manufacturers go from the stockpile, to their workshop, to
+          the armory, and back to the stockpile.  This means that production
+          can be most efficient when the armory is directly next to the
+          stockpile, and the weapons manufacturer is as close to the
+          armory/stockpile as possible.  This is naturally counterbalanced by
+          the fact that a very large portion of your industry also needs to be
+          near the stockpile, but of course weapon production is very
+          important.  If placing your armory next to your stockpile is not
+          practical, the weapons manufacturers should be somewhere between the
+          2 of them.
+
+     3.05: Leather Armor Production
+          Tanners work exactly like all the other weapons producers, except
+          that they go to the nearest dairy farm with available cattle instead
+          of the stockpile.  It may be to your benefit to build dairy farms
+          near the tanneries in order to reduce the amount of impact your
+          tanneries have on food production.  It also helps the tanner by
+          shortening his travel distance.
+
+          1 dairy farm for each tannery seems about right, but if your tanners
+          are sitting idle, or raiding the dairy farms you want to be producing
+          cheese and not leather for hides, dairy farms should be added.
+
+     3.06: Pitch Rigs
+          Pitch Rigs must be built on mashes.  If possible, placing your
+          stockpile near the marshes can greatly increase production.  There is
+          no way to improve production beyond this (like buying your peasants
+          some shoes).
+
+     3.07: Carters’ Post
+          Carters should be placed as close to the border, in the desired
+          shipping direction, as possible.
+
+          Carters’ posts automatically ship whatever item the map designer set
+          the estate to produce in lots of 40 units.  Unfortunately, there is
+          no way to find out what this until you see it happen. It is usually
+          safe to assume that estates with iron and stone deposits will
+          automatically ship their respective resource.  If you watch what the
+          estate AI built there, you can also make an educated guess at what it
+          will ship if you do not tell it to ship something else.  For example,
+          if the AI built dairy farms on the estate, it will probably ship
+          cheese.
+
+          There is no way to make the carters in vassal estates actually just
+          stop shipping, except to remove the resource they ship.  The stop
+          button just cancels the current shipment. If there are resources the
+          post will automatically ship to you available, it will resume
+          shipping as soon as the cart gets back to the post.  If you are
+          worried about your main stockpile filling up with a resource you
+          can't sell for some reason, an easy way to deal with it is to set the
+          post to continuously ship 5 food to you, since your granary is
+          unlimited.
+
+          If you have a post set to continuously ship a product and tell it to
+          send a single shipment of something else, without telling the post to
+          stop first, the post will resume shipping of the continuous item when
+          the cart gets back.
+
+     3.08: Chandler's Workshop & Beehives
+          Ideally, chandlers should be near to the stockpile.
+
+          Chandlers go straight to the nearest beehive with wax available after
+          dropping off candles, and then to their workshop. Placing your
+          beehives somewhere between the chandler's workshops and the stockpile
+          reduces amount of double back a chandler will do during his route.
+
+          For every chandler's workshop, try 3 beehives for constant output,
+          although 4 beehives are more practical if you only run one workshop.
+
+          Each chandler is enough to provide for one level of mass at the
+          church, as long as the chandler and beehive are near to the
+          stockpile.
+
+     3.09: Ale
+          Since ale works just like candles, I'm filing it here, instead of
+          under food.
+
+          Use 2 breweries for every hops farm works well, as long as both are
+          near to the stockpile.  In this case, one set per level of ale
+          distribution desired seems to work well.
+
+          Inns *don't* use different amounts of ale depending on the population
+          size in stronghold 2.
+
+4: Royal Foods
+
+     4.01: Wine
+          The vineyard should be near the stockpile while the vintners should
+          be between the stockpile and the kitchen. It's going to depend on the
+          distance between the stockpile and kitchen, but I find 3 vintners per
+          vineyard to be about right.
+
+          Also, 1 vineyard with enough vintners to keep the stockpile empty of
+          grapes will provide enough wine to cover feasting indefinitely with
+          wine to spare.
+
+     4.02: Eel Ponds
+          3 seem to be enough to maintain your current level of stocks if
+          they're reasonably close to the kitchen.
+
+     4.03: Pigs Farms and Vegetable Gardens
+          2 of each seem to be enough to maintain your current level of stocks
+          if they're reasonably close to the kitchen.
+
+
+5: Notes on other assorted buildings
+
+     5.01: Musicians Guild
+          Adds to honor gained during feasting and dancing.  Always build it
+          when you can. It should be placed near to the keep.
+
+     5.02: Church
+          If you're going to build this (hurts productivity when the peasants
+          attend mass), be sure it's located near to the keep.  If the lord has
+          to walk half way across the map to get to the church he will do so on
+          a regular basis.  In other words, if your lord has to walk 20 miles
+          to mass every Sunday, it cuts into his busy schedule of producing
+          honor via other means.
+
+          Simple Mass consumes 0.375 candles/month
+
+          9 candles where consumed in 24 months.
+
+          Standard Mass consumes 0.75 candles/month
+
+          18 candles where consumed in 24 months.
+
+          Special Mass consumes 1 candles/month
+
+          27 candles where consumed in 24 months.
+
+          Exhulted Mass consumes 1.5 candles/month
+
+          36 candles where consumed in 24 months.
+
+          Churches *don't* use different amounts of candles depending on the
+          population size.
+
+          All buildings which have multiple workers (the iron mine, mill,
+          kitchen, etc) never leave work for this type of thing.
+
+          Carters and ox handlers do not visit church.
+
+          The church seems to be most likely to draw nearby idle people first,
+          until the seats are full.  If your church is near to the houses, it
+          will mostly draw women and children, and have a minimal impact on
+          production.
+
+     5.03: Jousting
+          I used to routinely observe the lord attend the joust in one of the
+          previous patches, and in that case, it needs to be built near the
+          keep as well.  However, in V1.4.1, I have yet to see him actually
+          attend the tournament.  Just to make sure it's not restricted to
+          distance, I have attempted to place it very near to the keep, with no
+          effect.  I also check that it isn't just low priority by stopping all
+          the other lordly activities, just to make sure, and this had no
+          effect as well.  In addition, I seem to recall, although perhaps
+          incorrectly, that you would only receive an honor bonus if the lord
+          was attending.  Now however, the lord does not need to attend to
+          receive the honor bonus.  In other words, I really think that it's
+          been bugged, to your benefit, in one of the last patches.
+
+          All buildings which have multiple workers (the iron mine, mill,
+          kitchen, etc) never leave work for this type of thing.
+
+          Carters and ox handlers do not go to the tourney.
+
+          The Jousting field seems to be most likely to draw nearby idle people
+          first, until the seats are full.  If it is near to the houses, it
+          will mostly draw women and children, and have a minimal impact on
+          production.
+
+
+     5.04: Fair
+          I have never seen the lord attend a fair.
+
+          All buildings which have multiple workers (the iron mine, mill,
+          kitchen, etc) never leave work for this type of thing.
+
+          Carters and ox handlers do not go to the fair.
+
+          The fair seems to be most likely to draw nearby idle people first,
+          until the seats are full.  If it is near to the houses, it will
+          mostly draw women and children, and have a minimal impact on
+          production.
+
+     5.05: Treasury
+          Putting a guard post and a couple of good units in front completely
+          eliminates any threat thieves pose to your treasury.  In addition,
+          enemy thieves cannot sneak through gatehouses.  If the treasury is in
+          a walled location, it's pretty safe.
+
+     5.06: Kitchen
+          This should always be near the keep.
+
+
+     5.07: Lady's Chambers
+          This should always be right near the kitchen, wherever it is.  The
+          lady makes use of the kitchen's pages when they are not serving
+          feasts.  They help her bathe and get cloth from the stockpile so she
+          can make dresses.
+
+
+     5.08: Market
+          Build this someplace out of the way, unreachable if you can.  No one
+          ever has call to visit the market.  Also, this structure is free, so
+          build it as soon as it's available to you.
+
+
+     5.02: Inn
+          When observing the inn, I have noticed that its distance to your
+          workforce has no bearing on who decides to go to the inn.  To
+          minimize the impact this building will have on productivity, be sure
+          to place it near where you have your workforce stationed.  Workers
+          without resources to work with (like a baker with no flour) are more
+          likely to head to the inn than others.
+
+          Only peasants which pickup, not drop off, resources from the
+          stockpile visit the inn.  This includes bakers, blacksmiths,
+          vintners, etc.  The sole exception to this rule, which I have noticed
+          is the mill, which is because it's a multi-worker building.
+
+          The ration level of the inn does not effect how often it is visited.
+          Even if the ale is stopped, people still visit it and stumble out
+          drunk at the same rate.
+
+          Inns *don't* use different amounts of ale depending on the population
+          size.
+
+          Half Consumption consumes 0.375 ale/month
+
+          9 barrels where consumed in 24 months.
+
+          Normal Consumption consumes 0.75 ale/month
+
+          18 barrels where consumed in 24 months.
+
+          Extra Consumption consumes 1 ale/month
+
+          27 barrels where consumed in 24 months.
+
+          Double Consumption consumes 1.5 ale/month
+
+          36 barrels where consumed in 24 months.
+
+          All buildings which have multiple workers (the iron mine, mill,
+          kitchen, etc) never leave work for this type of thing.
+
+          Be careful about the inn, as the barkeep is the only happiness
+          booster which will become a criminal.  If you're relying on that +8
+          popularity bonus, it can be a very bad thing to not notice he's gone
+          rouge.
+
+
+6: Gong
+     I've noticed that gong routinely seems to pop up in the same places over
+     and over again.  Further testing reveals that it appears near specific
+     buildings, and has nothing to do with traffic, population, etc.  Even
+     without any peasants in the castle, gong will still be produced around
+     these buildings.  These buildings are normally high traffic, but even if
+     the traffic to them is stopped, the gong still appears.
+
+     The buildings to watch out for are:
+          Stockpile
+          Armory
+          Inn
+          Granary
+
+     Placing a gong pit near each of these buildings will basically eliminate
+     gong as a factor.
+
+     From hard experience, it seems that a single gong farmer can't keep up
+     with gong production, so you need to have at least 2 of them.
+
+     Gong farmers visit the joust and the fair, and church.  If you have built
+     one of these structures, you may want to build extra gong pits.
+
+     Gong farmers never turn to crime or visit the inn.
+
+
+7: Crime
+     If a building has been shut down due to the operator turning criminal, you
+     can delete the building and rebuild it, and some jobless peasant will take
+     over.
+
+     When stealing food from a granary, a criminal takes 30 food.  If he
+     remains uncaught, he will go back and forth between his house and granary
+     constantly.  The time a criminal takes to do this is obviously determined
+     by the distance from the granary to the hut/inn.  If there are no
+     huts/inns for the criminal to go to, he sits in front of the granary and
+     steals 30 every second or so, leading to a massive granary drain.  In
+     other words, it's *very* important that you have at least one hut when you
+     have criminals in your castle.
+
+     The honor bonus for punishments works solely by the amount of time the
+     peasant has spent being punished.  In other words, punishments which take
+     longer give more of an honor bonus while the decidedly quick chopping
+     block almost never gives a bonus of any sort.
+
+     Criminals taken to punishment are always placed in the nearest available
+     punishment.  If you have a chopping block and a pillory, with the chopping
+     block being nearer to the courthouse than the pillory is, the criminals
+     will always be executed.
+
+     Unless you need the honor, there's no point in rehabilitating criminals.
+     My best efforts to find out if a rehabilitated criminal will try again
+     someday have shown that they do.
+
+     If you have crime but are unable to build a courthouse, your criminals
+     will obviously go around uncaught until you manage to get that courthouse
+     built.  The game seems to be set so that there will be no more than 3
+     criminals in play at a time by default, although this can be changed to a
+     different number in a custom scenario.  When the scenario is set to have a
+     very high crime rate, the maximum number of criminals is 5.  If you're
+     willing to put up with the constant negative to your popularity, you can
+     actually use this to your advantage.  If you build the courthouse and a
+     guard post, and catch all the criminals without building any punishments,
+     the criminals will just sit in your dungeon.  Since you're already at your
+     criminal limit, no more will be created.  In other words, you're
+     deliberately suffering a popularity hit for increased production.  If you
+     have the chopping block available in your scenario, this is almost
+     certainly not worth the effort.  However, if your scenario dictates that
+     all you can use is the pillory, this just might be worth your time.
+
+     All buildings which have multiple workers (the iron mine, mill, kitchen,
+     etc) never leave work for this type of thing.
+
+     Jobless Peasants cannot become criminals, despite the in-game help stating
+     otherwise.
+
+     Ox handlers, gong farmers, falconers, judges, torturers, guards,
+     musicians, monks, and priests cannot become criminals either.
+
+     If you have no peasants which *can* become criminals, no criminals will be
+     created.  This is impractical as a solution to crime however, as all food
+     related jobs (except the mill and kitchen), the treasurer, and all weapons
+     producers can become criminals.
+
+     7.01: Easily Catching Criminals
+          When someone turns criminal, they *always* head immediately to one of
+          2 places: Home or the Inn.  They are not catchable until they get
+          there.  As soon as they leave their house or the inn however, they
+          can be caught.  After a criminal leaves the Inn or Home, they always
+          head to the granary to attempt to steal food.  If you know where the
+          criminals will come from, and their destination, it's easy to place
+          guard posts at either end of their route to be sure they're caught.
+          Placing your courthouse nearby to where you're catching the criminals
+          will aid the guards in their jobs as well.  One trick that can be
+          used is to cluster your houses together, and surround them with a
+          wooden wall to make a walled village with only one entrance.  Then,
+          put a guard post or two at the entrance to be sure that no peasants
+          get past you.  If you're using an inn, either place another guard
+          post near the inn, or build the inn near the housing so it's covered
+          as well.
+
+8: Rats
+     The effectiveness of your falconers is basically determined by how big
+     your castle estate is.  It seems that the rats can appear in any location
+     in your estate and go to any other location also in the estate.  For the
+     majority of the maps I've played, 1 falconer is too few.  2 falconers do
+     the job adequately most of the time.  In a particularly large castle
+     estate, 3 falconers always do the job.
+
+     Try to scatter the falconers posts around the estate in a fairly even
+     distribution pattern.
+
+9: Trade
+     Here's a list of all trade goods with their market values:
+          Food:
+               Apples 8/4
+               Bread 8/4
+               Cheese 8/4
+               Meat 8/4
+               Wheat 23/8
+               Flour 32/10
+               Hops 15/8
+               Ale 20/10
+
+               Note that each unit of wheat yields one bag of flour which in
+               turn yields 16 units of bread.  This means that per unit of
+               food, wheat runs at 1.4375/0.5 and flour runs at 2/0.625.  It is
+               much cheaper to buy wheat than it is to buy bread, as is
+               expected.
+
+           Royal Food:
+               Eels 12/6
+               Geese 12/6
+               Pigs 12/6
+               Vegetables 12/6
+               Grapes 20/10
+               Wine 24/12
+
+           Materials:
+               Wood 3/1
+               Stone 4/2
+               Iron 45/25
+               Pitch 16/8
+               Candles 8/4
+               Wool 15/8
+               Cloth 20/10
+
+          Weapons:
+               Bows 31/15
+               Crossbows 58/30
+               Swords 58/30
+               Maces 58/30
+               Pikes 36/18
+               Spears 20/10
+               Armor 58/30
+               Leather Armor 25/12
+
+10: Taxes
+     All Examples just assume a population of 100 for simplicity sake.
+     The results are always rounded towards 0 in the event of a decimal.
+
+     Large Bribe +8:
+          population * -0.5
+          Example: 100 * -0.5 = -50 gold/month
+
+     Small Bribe +4:
+          population * -0.25
+          Example: 100 * -0.25 = -25 gold/month
+
+     No Taxes +1:
+          population * 0
+          Example: 100 * 0 = 0 gold/month
+
+     Low -2:
+          population * 0.25
+          Example: 100 * 0.25 = 25 gold/month
+
+     Normal -4:
+          population * 0.5
+          Example: 100 * 0.5 = 50 gold/month
+
+     High -6:
+          population * 0.75
+          Example: 100 * 0.75 = 75 gold/month
+
+     Extortionate -8:
+          population * 1
+          Example: 100 * 1 = 100 gold/month
+
+     Cruel -12:
+          population * 1.25
+          Example: 100 * 1.25 = 125 gold/month
+
+     Extra Cruel -16:
+          population * 1.50
+          Example: 100 * 1.50 = 150 gold/month
+
+
+11: Using various happiness boosters to support taxes
+     All examples assume that you desire popularity to be balanced against
+     taxes.
+
+     11.01: Food Vs Taxes:
+          As an exercise in thought, let's consider producing enough food to
+          feed your peasants double rations and selling the excess food,
+          instead of actually feeding it to the peasants and raising taxes.
+
+          As stated before, the amount each peasant eats depends on the
+          population of your castle.  Maximum food consumption is 175 units by
+          128 people. Since we're producing enough food to feed the population
+          double, but are instead selling the surplus, we are selling 175 units
+          of food/year.
+
+          Further, as noted each unit of food is worth 4 gold when you sell it.
+          Given that we are selling 175 food/year, we are making 700 gold/year
+          on food sales.
+
+          If you feed the food to the peasantry instead, and use the happiness
+          bonus to tax them, you are bringing in 128 gold/month, which
+          translates to 1,536 gold/year.  Even if you use high taxes, instead
+          of extortionate taxes in order to provide a happiness buffer to deal
+          with crime and the like, you are still earning 1152 gold per year.
+          If you buy the *extra* food, instead of producing it, you will still
+          profit very slightly (by 136 gold annually).  If you attempt to buy
+          *all* their food, you will loose 1264 gold/year.
+
+          Low Tax & Extra Rations
+               Tax income = 384/year
+               Income lost due to not selling food = 350 gold/year
+               Profit = 34/year
+
+          Normal Tax & Extra Rations
+               Tax income = 768/year
+               Income lost due to not selling food = 350 gold/year
+               Profit = 418/year
+
+          High Tax & Double Rations
+               Tax income = 1152/year
+               Income lost due to not selling food = 700 gold/year
+               Profit = 452/year
+
+          Extortionate Tax & Double Rations
+               Tax income = 1536/year
+               Income lost due to not selling food = 700 gold/year
+               Profit = 836/year
+
+          Clearly it is more profitable to tax the peasants and feed then
+          double than it is to sell the excess food and feed them normally.
+
+     11.02: Candles Vs Taxes:
+          Next, let's consider selling candles vs. using them to provide tax
+          income.
+
+          As stated earlier candles sell for 4 gold each.
+          Simple Mass consumes 5 candles/year which equates to 20 gold/year
+          Standard Mass consumes 9 candles/year which equates to 36 gold/year
+          Special Mass consumes 14 candles/year which equates to 56 gold/year
+          Exulted Mass consumes 18 candles/year which equates to 72 gold/year
+
+          Bear in mind that the tax income varies by population but the cost of
+          the candles remains fixed regardless of population.  Even so, suppose
+          you have a population of 128 for the sake of example.
+
+          Low Tax & Simple Mass
+               Tax income = 384/year
+               Income lost due to not selling candles = 20 gold/year
+               Profit = 264/year
+
+          Normal Tax & Standard Mass
+               Tax income = 768/year
+               Income lost due to not selling candles = 36 gold/year
+               Profit = 732/year
+
+          High Tax & Special Mass
+               Tax income = 1152/year
+               Income lost due to not selling candles = 56 gold/year
+               Profit = 1096/year
+
+          Extortionate Tax & Exulted Mass
+               Tax income = 1536/year
+               Income lost due to not selling candles = 72 gold/year
+               Profit = 1464/year
+
+          For the sake of thoroughness, let's consider the option of buying the
+          candles, instead of manufacturing them.
+
+          Simple Mass consumes 5 candles/year which equates to 40 gold/year
+          Standard Mass consumes 9 candles/year which equates to 72 gold/year
+          Special Mass consumes 14 candles/year which equates to 112 gold/year
+          Exulted Mass consumes 18 candles/year which equates to 144 gold/year
+
+          Low Tax & Simple Mass
+               Tax income = 384/year
+               Candles Purchase Price = 40 gold/year
+               Profit = 224/year
+
+          Normal Tax & Standard Mass
+               Tax income = 768/year
+               Candles Purchase Price = 72 gold/year
+               Profit = 696/year
+
+          High Tax & Special Mass
+               Tax income = 1152/year
+               Candles Purchase Price = 112 gold/year
+               Profit = 1040/year
+
+          Extortionate Tax & Exulted Mass
+               Tax income = 1536/year
+               Candles Purchase Price = 144 gold/year
+               Profit = 1392/year
+
+          Clearly, using candles to offset taxes is very profitable.  In fact,
+          it's nearly twice as profitable as using food for the same effect.
+
+     11.03: Ale Vs Taxes:
+          Next, let's consider selling ale vs. using it to provide tax income.
+
+          As stated earlier ale sell for 4 gold each.
+          Half Consumption is 5 ale/year which equates to 50 gold/year
+          Normal Consumption is 9 ale/year which equates to 90 gold/year
+          Extra Consumption is 14 ale/year which equates to 140 gold/year
+          Double Consumption is 18 ale/year which equates to 180 gold/year
+
+          Bear in mind that the tax income varies by population but the cost of
+          the ale remains fixed regardless of population.  Even so, suppose you
+          have a population of 100 for the sake of example.
+
+          Low Tax & Half Consumption
+               Tax income = 384/year
+               Income lost due to not selling ale = 50 gold/year
+               Profit = 334/year
+
+          Normal Tax & Normal Consumption
+               Tax income = 768/year
+               Income lost due to not selling ale = 90 gold/year
+               Profit = 678/year
+
+          High Tax & Extra Consumption
+               Tax income = 1152/year
+               Income lost due to not selling ale = 140 gold/year
+               Profit = 1012/year
+
+          Extortionate Tax & Double Consumption
+               Tax income = 1536/year
+               Income lost due to not selling ale = 180 gold/year
+               Profit = 1356/year
+
+          For the sake of thoroughness, let's consider the option of buying the
+          ale, instead of manufacturing them.
+
+          Half Consumption is 5 ale/year which equates to 100 gold/year
+          Normal Consumption is 9 ale/year which equates to 180 gold/year
+          Extra Consumption is 14 ale/year which equates to 280 gold/year
+          Double Consumption is 18 ale/year which equates to 360 gold/year
+
+          Bear in mind that the tax income varies by population but the cost of
+          the ale remains fixed regardless of population.  Even so, suppose you
+          have a population of 100 for the sake of example.
+
+          Low Tax & Half Consumption
+               Tax income = 384/year
+               Ale Purchase Price = 100 gold/year
+               Profit = 234/year
+
+          Normal Tax & Normal Consumption
+               Tax income = 768/year
+               Ale Purchase Price = 180 gold/year
+               Profit = 588/year
+
+          High Tax & Extra Consumption
+               Tax income = 1152/year
+               Ale Purchase Price = 280 gold/year
+               Profit = 872/year
+
+          Extortionate Tax & Double Consumption
+               Tax income = 1536/year
+               Ale Purchase Price = 360 gold/year
+               Profit = 1176/year
+
+          Clearly, using ale to offset taxes is very profitable.  It is not as
+          profitable as the church however, and does hurt production more than
+          the church if the church is placed properly.
+
+     11.04: Food VS Other Sources of Happiness:
+          If you look at the numbers established above, it is actually cheaper
+          to have your peasants liquored up or religious zealots than it is to
+          feed them.  In order to just run with this concept, we need to
+          establish whether or not it takes more man-power, wood, and/or space
+          to feed them as well.
+
+          In the section on food, there are numerous plans for feeding your
+          peasants.
+
+          Since not feeding your people results in a -8 popularity, we have to
+          have either the church or the inn working to maximum effect in order
+          to offset this deficit.
+
+          All comparisons assume that you're feeding 136+ people, which will
+          feed any population.
+
+          Space:
+               The church takes up 98 squares.
+               4 chandlers and take up 64 squares.
+               12 beehives take up 24 squares.
+               Religion takes a total of 186 squares.
+
+               The inn takes up 42 squares.
+               8 breweries take up 182 squares.
+               4 hops farms take up 160 squares.
+               Ale in total takes up 384 squares.
+
+               Hunters posts, which are the most space efficient, would take up
+               120 squares.
+               Since we don't need the granary, add another 25 squares.
+               Food will take a *minimum* of 145 squares for normal rations.
+
+               Hunters Posts are very space efficient, if it where apples
+               instead, this number would be 241 squares for 6 orchards and a
+               granary.
+
+               In other words, religion is *competitive* on the amount of space
+               it takes up.  It's much better than apples, dairy, and bread
+               production, but is worse than hunting.  Ale on the other hand,
+               is far worse than even bread in the space used category.
+
+
+          Resources:
+               The church costs 50 stone and 500 gold (expensive building
+               huh?).
+               4 Chandlers cost 40 wood.
+               12 bee hives cost 60 wood.
+               Religion in total would cost 100 wood, 50 stone, and 500 gold.
+
+               The inn costs 100 wood.
+               8 breweries cost 80 wood.
+               4 hops farms cost 60 wood.
+               Religion in total would cost 240 wood
+
+               6 apple orchards would cost 30 wood.
+               20 hunters would cost 100 wood.
+               A bread block costs 165 wood.
+
+               Religion would be competitive on the resource cost if it wasn't
+               for the stone and gold requirement, but it's not.  Ale
+               production costs far more wood than even bread does.
+
+          Workers
+               Religion would need 1 priest and 4 chandlers for a total of five
+               people.
+
+               Ale requires a barkeep, 8 brewers, and 4 hops farmers for a
+               total of 13 people.
+
+               Apples would take 6 people.
+
+               A bread block occupies 16 people.
+
+               Hunters would occupy 20 people.
+
+               In the manpower arena, it seems that religion is hands down the
+               best.  Ale is competitive, as it beats hunting and bread
+               production, but does not beat apples or dairy.
+
+
+          In short, religion is competitive, if you have extra stone and gold
+          to throw around, but are short on space and man-power.  Ale is only
+          competitive in the man-power department.  Both ale and religion as an
+          economic base fail to give you the regular honor bonus multiple food
+          production does.
+
+
+12: Conclusions on Taxes
+     If you wish to absolutely maximize your gold intake, the most profitable
+     course is to use the church and ale to offset the -16 tax penalty.  If you
+     want to have a buffer of +2 happiness in order to account for crime and
+     the like, the most profitable course is:
+
+     Exulted Mass +8
+     Extra Consumption +6
+     Extra Rations +4
+     Taxes -16
+     Total +2
+
+     Another option that will work well is to combine Exulted Mass with Double
+     Ale Consumption, normal rations, and either the joust of the fair to
+     provide an occasional extra happiness bonus.  This will keep your
+     happiness in the 90+ range indefinitely, with a slight overall climb in
+     the event of something dropping your happiness.  If your popularity
+     suddenly falls, having this many popularity boosters makes it very easy to
+     recover quickly.
+
+13: Unit Statistics
+     13.01: Unit Costs
+          This section covers the cost of each unit, including and not
+          including the gold necessary to buy their weapons is also listed.
+
+          13.01.01: Peasants
+               Cost: 5 Gold, 0 Honor, 0 Weapons
+
+          13.01.02: Spearmen
+               Cost: 8 Gold, 0 Honor, 1 Spear
+               Cost Of Weapons: 20 Gold
+               Total Cost: 28 Gold
+
+          13.01.03: Archers
+               Cost: 12 Gold, 2 Honor, 1 Bow
+               Cost Of Weapons: 31 Gold
+               Total Cost: 43 Gold, 2 Honor
+
+          13.01.04: Crossbowmen
+               Cost: 20 Gold, 2 Honor, 1 Crossbow, 1 Leather Armor
+               Cost Of Weapons: 83 Gold
+               Total Cost: 103 Gold, 2 Honor
+
+          13.01.05: Macemen
+               Cost: 20 Gold, 1 Honor, 1 Mace, 1 Leather Armor
+               Cost Of Weapons: 83 Gold
+               Total Cost: 103 Gold, 1 Honor
+
+          13.01.06: Pikemen
+               Cost: 20 Gold, 2 Honor, 1 Pike, 1 Metal Armor
+               Cost Of Weapons: 94 Gold
+               Total Cost: 114 Gold, 2 Honor
+
+          13.01.07: Swordsmen
+               Cost: 40 Gold, 8 Honor, 1 Sword, 1 Metal Armor
+               Cost Of Weapons: 116 Gold
+               Total Cost: 156 Gold, 8 Honor
+
+          13.01.08: Knights
+               Cost: 200 Gold, 50 Honor,  1 Sword, 1 Metal Armor
+               Cost Of Weapons: 116 Gold
+               Total Cost: 316 Gold, 50 Honor
+
+          13.01.09: Mounted Knights
+               Cost: 200 Gold, 50 Honor,  1 Sword, 1 Metal Armor, 1 Horse
+               Cost Of Weapons: 116 Gold
+               Total Cost: 316 Gold, 50 Honor
+
+          13.01.10: Pictish Boat Warriors
+               Cost: 40 Gold, 0 Honor
+
+          13.01.11: Outlaw
+               Cost: 60 Gold, 0 Honor
+
+          13.01.12: Light Cavalry
+               Cost: 40 Gold, 2 Honor
+
+          13.01.13: Axe Thrower
+               Cost: 100 Gold, 0 Honor
+
+          13.01.14: Assassin
+               Cost: 100 Gold, 200 Honor
+
+          13.01.15: Horse Archer
+               Cost: 80 Gold, 2 Honor
+
+          13.01.16: Berserker
+               Cost: 80 Gold, 0 Honor
+
+          13.01.17: Thief
+               Cost: 10 Gold, 50 Honor
+
+          13.01.18: Monk
+               Cost: 25 Gold, 1 Honor
+
+          13.01.19: Warrior Monk
+               Cost: 1 Gold, 10 Honor
+
+     13.02: Unit Hierarchy
+          For the main units (those recruited from the barracks), it's pretty
+          obvious which units beat which units on even terms.  However, when
+          you throw in the units from the monastery and mercenary outpost, the
+          picture becomes muddled.  In order to paint a clear picture, I pit
+          each unit against each other in a series of 24 vs. 24 battles in a
+          sort of battle royal.  Each engagement was surprisingly decisive,
+          with 10 or more survivors on the winning side in nearly all cases.
+          There where no instances of a unit being equally matched against
+          another unit type.  The pecking order turns out like this:
+
+               Peasants
+               Spearmen
+               Light Cavalry
+               Pictish Boat Warriors
+               Monk
+               Thief
+               Outlaw
+               Macemen
+               Warrior Monk
+               Berserker
+               Pikemen
+               Assassin
+               Swordsmen
+               Knights
+               Mounted Knights
+               Lord
+               Mounted Lord
+
+          Note that some units have special abilities to be considered during
+          actual game play, and I make no attempt to quantify them.  For
+          instance, Light Cavalry suffer heavy casualties when fighting
+          spearmen and all other regular units will simply best them in an even
+          fight.  Their speed makes them most useful for certain tasks however,
+          such as raiding an enemy siege camp before if starts pumping out
+          siege equipment.
+
+          It's also worth noting that assassins are only bested by swordsmen or
+          better when deployed in equal numbers. Assassins are so expensive,
+          however, that this situation will tend to not occur. In fact, they
+          are more expensive than knights, and an equal force of knights will
+          make short work of them.  Still, their abilities are most definitely
+          advantageous in certain situations.
+
+          While the lord has the single best combat abilities of any unit in
+          the game, many units can overpower him with relative ease, since you
+          only get one.  As a point of interest from a testing method that
+          didn't pan out, a lord on foot can single handedly take on 43
+          peasants at one time and win.  On horseback, he can take on up to 52
+          peasants at once.  However, this says a little less about the quality
+          of the lord unit and quite a bit about the absolute lack of quality
+          associated with peasants.
+
+          When knights are mounted, they not only get more health and improved
+          movement speed due to the horse, but their attack speed is
+          dramatically increased as well.  This makes mounted knights far more
+          powerful than knights on foot.
+
+          I could not identify a method of testing missile units which was both
+          consistent and would finish within a reasonable amount of time as
+          armored units take forever to kill in a controlled test.  However,
+          each missile unit has its advantages and disadvantages, and for the
+          most part, none should truly be considered superior to the others in
+          the correct application.
+
+          Axe throwers seemed to do the most damage in the shortest amount of
+          time.  They also seem to be the best at melee.  They do have a very
+          short range however, which limits their usefulness.
+
+          Archers have a longer range and faster fire rate than crossbowmen do.
+          This makes them more effective in general against weak units, and
+          gives them an edge in certain defensive applications.  Crossbowmen do
+          much more damage however, which is important when facing stronger
+          unit types.  On the offensive, crossbowmen are slower than archers,
+          which hampers your efforts, and do not have the range you need to be
+          able to suppress fire from enemy towers.
+
+          Horse archers are relatively expensive and cannot be put on walls.
+          Their ability to shoot on the move and outrun practically everything
+          make them very useful units however, even though they're still pretty
+          ineffective against enemy armored troops.
+
+
+     13.03: Military Conclusions
+          The only unit spearmen can take on and win against is peasants.  They
+          have a numerical advantage due to their low price, but note that
+          monks are cheaper and beat the pants off of light cavalry and boat
+          warriors.  The downside to monks, however, is that the monastery is a
+          huge building which you will not always have the room to place.  Not
+          to mention the fact that spears are very easy to manufacture in large
+          quantities, which cuts the purchase price of the spearmen down.
+
+          Consider that even the most advanced field armies need lighter
+          infantry units to do certain tasks.  For example, due to their very
+          low speed, swordsmen are not well suited to quickly gaining the walls
+          and taking out a tower ballista which is harassing your units.  In
+          this category the top 4 contenders are Outlaws, Macemen, Warrior
+          Monks, and Berserkers.  When considering which of these units to
+          purchase:
+               Outlaws are the weakest of this batch of units, but their price
+               is right.  They're nearly half the cost of macemen and require
+               no honor.  Still, berserkers are only 33% more expensive and top
+               this category of unit.
+
+               Macemen are hands down the most expensive of this category if
+               you purchase the weapons, or take a lot of manpower to field
+               simply due to their extensive production chain.  To top it off,
+               they're the second to worst in the actual combat category.  I
+               find they can usually get to that pesky mangonel and take it
+               out, but cannot consistently hold the tower against any sort of
+               response.  This means that heavier foot units have to be Jonny
+               on the spot to relieve them (which is not always practical), or
+               you will often end up just wasting time and units because the
+               enemy can rebuild faster than you can replace your macemen.
+
+               Warrior Monks are surprisingly good at this role.  Their price
+               is great if your economic build leaves you with honor to spare.
+               Of course, the monastery takes up a lot of room.
+
+               Berserkers are the best in their class in raw combat ability.
+               They also cost much less than macemen and have much lower honor
+               requirements than warrior monks.  The fact that the mercenary
+               outpost takes up less space than a monastery and provides more
+               unit types helps tip the balance in their favor as well.
+
+          When fielding heavy units:
+               Pikeman are the cheapest of this class of unit and theoretically
+               beat all light infantry in an equal stand up fight.  However,
+               they do this by wearing the enemy down slowly.  Their attack
+               leaves much to be desired, and are unable to take anything down
+               quickly.  Even fighting spearmen will take forever.  This often
+               will leave them vulnerable to enemy missile fire and gives the
+               enemy ample opportunity to bring up reinforcements.  Their weak
+               attack also makes them more vulnerable to being overwhelmed than
+               the other units in their class.
+
+               Swordsman beat the pants off of anything which is not a knight.
+               They're cheaper than knights, but not as effective.
+
+               A group of knights will hands down annihilate anything that gets
+               in its path.  This is doubly true when they are mounted.  They
+               even get the ability to heal (to some degree) in the form of
+               requesting a new horse after their current horse is killed.
+               They are however the most expensive unit in the game, aside from
+               the assassin, and this can cause problems for even the strongest
+               economy.  When considering whether to field knights or
+               swordsmen, consider that knights cost roughly twice as much as
+               swordsmen do.  However, testing shows that when knights are
+               fighting swordsmen, while on foot, have to be outnumbered
+               greater than 3 to 1, in order to loose.  3 to 1 against the
+               knights results in a draw, with both sides wiped out, in other
+               words a strategic victory due to the fact that the enemy lost
+               more money than you did.  When the knights are mounted, they
+               have to be outnumbered closer to 4 to 1 in order to fight to a
+               draw.  When the knights are outnumbered 2 to 1, mounted or not,
+               they will simply cleave their way through the enemy swordsmen.
+
+14: Kingmaker Population Limits
+     When playing kingmaker, the population and army size limit for each side
+     is determined by the number of lords.
+
+     # Of Enemy Lords  Max Peasants  Max Army Size
+              1            120            500
+              2            104            433
+              3            104            400
+              4             96            380
+              5             96            366
+              6             96            357
+              7             96            350
+
+     Whether or not map size has an effect was untested.
+
+     Putting all the AI lords in one team against yourself does not alter the
+     population limits.
+
+     Note that the listed max peasants is not a maximum total number of
+     peasants, meaning that in a 7 player game, you can put 96 peasants on
+     every estate if you so choose.
+
+
+15: Reference (Basically the body of this guide highly condensed)
+
+     15.01: Food Consumption Rates
+
+                         Food Consumed/Year
+          Population     on Normal Rations
+              8                25
+             16                50
+             24                75
+             32                85
+             40                100
+             48                115
+             56                125
+             64                135
+             72                145
+             80                155
+             88                160
+             96                165
+            104                165
+            112                170
+            120                170
+            128                175
+            136                175
+            144                170
+            152                170
+            160                165
+            168                165
+            176                160
+            184                160
+            192                155
+            200                150
+
+          On half rations multiply the Food Consumed/Year above by 0.5.
+          On extra rations multiply the Food Consumed/Year above by 1.5.
+          On double rations multiply the Food Consumed/Year above by 2.0.
+
+     15.01: Food Generation by Type
+          Hunting: 8.5 food/year
+          Apples: 32 food/year
+          Dairy: 29.5 food/year
+          1 mill + 3 farms + 10 bakeries: 280 food/year
+
+     15.02: Food Overall Rankings
+          15.02.01: Food Production Ranked by Output per Tile
+               Hunting: 1.417 food/tile
+               Dairy: 1.356 food/tile
+               Bread Production: 0.946 food/tile
+               Apples: 0.889 food/tile
+
+          15.02.02: Food Production Ranked by Output per Worker
+               Apples: 32 food/worker
+               Dairy: 29.5 food/worker
+               Bread Production: 17.5 food/worker
+               Hunting: 8.5 food/worker
+
+          15.02.03: Food Production Ranked by Output per Wood Cost
+               Apples: 6.4 food/wood
+               Dairy: 2.95 food/wood
+               Hunting: 1.7 food/wood
+               Bread Production: 0.589 food/wood
+
+
+     15.03: Sample Food Production Plans
+
+          Plan A:
+               128+ People eating meat, cheese, and apples on double rations
+
+               14 Hunters
+               4 Dairy
+               4 Apples
+
+               Wood: 130
+               Workers: 22
+               Squares: 388
+
+          Plan B:
+               128+ People eating cheese and apples on double rations
+
+               6 Dairy
+               6 Apples
+
+               Wood: 90
+               Workers: 12
+               Squares: 456
+
+          Plan C:
+               128+ People eating bread on extra rations
+
+               Bread Block (1 mill + 3 farms + 10 bakeries)
+
+               Wood: 165
+               Workers: 16
+               Squares: 296
+
+          Plan D:
+               128+ People eating bread and cheese on double rations
+
+               Bread Block (1 mill + 3 farms + 10 bakeries)
+               6 Dairy
+
+               Wood: 225
+               Workers: 22
+               Squares: 536
+
+          Plan E:
+               128+ People eating bread, meat, cheese, and apples on double
+               rations
+
+               11 Hunters
+               3 Dairy
+               3 Apples
+               Bread Block (1 mill + 3 farms + 10 bakeries)
+
+               Wood: 265
+               Workers: 38
+               Squares: 590
+
+          Estate Apples (double rations):
+               Huts  Population Orchards Wood Workers Squares
+                 1       8         2      10     2       36
+                 2      16         3      15     3       72
+                 3      24         4      20     4      108
+                 4      32         5      25     5      144
+                 5      40         6      30     6      180
+                 6      48         7      35     7      216
+                 7      56         8      40     8      252
+                 8      64         9      45     9      288
+                 9      72         9      45     9      288
+                10      80        10      50    10      324
+                11      88        10      50    10      324
+                12+     96+       11      55    11      360
+
+          Estate Dairy (double rations):
+               Huts  Population Dairy Farms Wood Workers Squares
+                 1        8          2       20     2       80
+                 2       16          3       30     3      120
+                 3       24          5       50     5      200
+                 4       32          6       60     6      240
+                 5       40          7       70     7      280
+                 6       48          8       80     8      320
+                 7       56          9       90     9      360
+                 8       64         10      100    10      400
+                 9       72         10      100    10      400
+                10       80         11      110    11      440
+                11       88         11      110    11      440
+                12+      96+        11      110    11      440
+
+          Estate Hunting (double rations):
+               Huts  Population  Hunters  Wood Workers Squares
+                 1       8         6       30     6       36
+                 2      16        11       55    11       66
+                 3      24        16       80    16       96
+                 4      32        20      100    20      120
+                 5      40        24      120    24      144
+                 6      48        27      135    27      162
+                 7      56        30      150    30      180
+                 8      64        32      160    32      192
+                 9      72        34      170    34      204
+                10      80        36      180    36      216
+                11      88        38      190    38      228
+                12+     96+       40      200    40      240
+
+          Estate Bread (double rations):
+               A bread block will feed up to 72 peasants (9 huts) double
+               rations.  It will also feed 96+ peasants (12+ huts) extra
+               rations.
+
+               For reference, 1 mill + 3 farms + 10 bakeries costs 165 wood, 16
+               workers, and 296 squares.
+
+          Estate Bread Exporter:
+               4 Carters
+               1 mill
+               3 farms
+               10 bakeries
+
+               With either:
+                    A:
+                    3 Orchards
+                    Population 24 (3 huts)
+
+                    B:
+                    2 Orchards
+                    2 Dairy Farms
+                    Population 24 (3 huts)
+
+                    C:
+                    2 Orchards
+                    2 Dairy Farms
+                    5 hunters
+                    Population 32 (4 huts)
+
+     15.04: Industry Ratios
+          15.04.01: Stone Quarries and Iron Mines
+               1 ox per quarry/mine if the stockpile is right near the
+               minerals.
+
+               2 oxen per quarry/mine if your quarries/mines are about a screen
+               away from the stockpile.
+
+               3 oxen per quarry/mine if they further out.
+
+          15.04.02: Weaving
+               For Dances, 1 sheep farm 2 weavers.
+               For Export, start with an even mix of herds and weavers.  Then,
+               if you are producing excess wool, add weavers until they are
+               using the wool as fast as the herd can provide it.
+
+          15.04.03: Leather Armor Production
+               1 dairy farm for each tannery seems about right.
+
+          15.04.04: Chandler's Workshop & Beehives
+               Three beehives per chandler.
+               Four beehives if using only one chandler.
+
+               One Chandler for each level of mass.
+
+          15.04.05: Ale
+               Two breweries for every hops farm works well.
+
+               One hops farm per level of ale consumption.
+
+               Inns *don't* use different amounts of ale depending on the
+               population size in stronghold 2.
+
+     15.04: Royal Foods
+          15.04.01: Wine
+               Three Vintners per vineyard.
+
+               One vineyard if not exporting wine.
+
+          15.04.01: Eel Ponds
+               Roughly three are required if not exporting.
+
+          15.04.01: Pigs Farms and Vegetable Gardens
+               Two of each if not exporting.
+
+     15.05: Market Values of Trade Goods
+          Food:
+               Apples 8/4
+               Bread 8/4
+               Cheese 8/4
+               Meat 8/4
+               Wheat 23/8
+               Flour 32/10
+               Hops 15/8
+               Ale 20/10
+
+               Note that each unit of wheat yields one bag of flour which in
+               turn yields 16 units of bread.  This means that per unit of
+               food, wheat runs at 1.4375/0.5 and flour runs at 2/0.625.  It is
+               much cheaper to buy wheat than it is to buy bread, as is
+               expected.
+
+           Royal Food:
+               Eels 12/6
+               Geese 12/6
+               Pigs 12/6
+               Vegetables 12/6
+               Grapes 20/10
+               Wine 24/12
+
+           Materials:
+               Wood 3/1
+               Stone 4/2
+               Iron 45/25
+               Pitch 16/8
+               Candles 8/4
+               Wool 15/8
+               Cloth 20/10
+
+          Weapons:
+               Bows 31/15
+               Crossbows 58/30
+               Swords 58/30
+               Maces 58/30
+               Pikes 36/18
+               Spears 20/10
+               Armor 58/30
+               Leather Armor 25/12
+
+     15.06: Unit Statistics
+          15.06.01: Unit Costs
+               Peasants
+                   Cost: 5 Gold, 0 Honor, 0 Weapons
+               Spearmen
+                    Cost: 8 Gold, 0 Honor, 1 Spear
+                    Cost Of Weapons: 20 Gold
+                    Total Cost: 28 Gold
+               Archers
+                    Cost: 12 Gold, 2 Honor, 1 Bow
+                    Cost Of Weapons: 31 Gold
+                    Total Cost: 43 Gold, 2 Honor
+               Crossbowmen
+                   Cost: 20 Gold, 2 Honor, 1 Crossbow, 1 Leather Armor
+                   Cost Of Weapons: 83 Gold
+                   Total Cost: 103 Gold, 2 Honor
+               Macemen
+                    Cost: 20 Gold, 1 Honor, 1 Mace, 1 Leather Armor
+                    Cost Of Weapons: 83 Gold
+                    Total Cost: 103 Gold, 1 Honor
+               Pikemen
+                    Cost: 20 Gold, 2 Honor, 1 Pike, 1 Metal Armor
+                    Cost Of Weapons: 94 Gold
+                    Total Cost: 114 Gold, 2 Honor
+               Swordsmen
+                    Cost: 40 Gold, 8 Honor, 1 Sword, 1 Metal Armor
+                    Cost Of Weapons: 116 Gold
+                    Total Cost: 156 Gold, 8 Honor
+               Knights
+                    Cost: 200 Gold, 50 Honor,  1 Sword, 1 Metal Armor
+                    Cost Of Weapons: 116 Gold
+                    Total Cost: 316 Gold, 50 Honor
+               Mounted Knights
+                    Cost: 200 Gold, 50 Honor,  1 Sword, 1 Metal Armor, 1 Horse
+                    Cost Of Weapons: 116 Gold
+                    Total Cost: 316 Gold, 50 Honor
+
+               Pictish Boat Warriors
+                    Cost: 40 Gold, 0 Honor
+               Outlaw
+                    Cost: 60 Gold, 0 Honor
+               Light Cavalry
+                    Cost: 40 Gold, 2 Honor
+               Axe Thrower
+                    Cost: 100 Gold, 0 Honor
+               Assassin
+                    Cost: 100 Gold, 200 Honor
+               Horse Archer
+                    Cost: 80 Gold, 2 Honor
+               Berserker
+                    Cost: 80 Gold, 0 Honor
+               Thief
+                    Cost: 10 Gold, 50 Honor
+
+               Monk
+                    Cost: 25 Gold, 1 Honor
+               Warrior Monk
+                    Cost: 1 Gold, 10 Honor
+
+          15.06.02: Unit Hierarchy
+               Peasants
+               Spearmen
+               Light Cavalry
+               Pictish Boat Warriors
+               Monk
+               Thief
+               Outlaw
+               Macemen
+               Warrior Monk
+               Berserker
+               Pikemen
+               Assassin
+               Swordsmen
+               Knights
+               Mounted Knights
+               Lord
+               Mounted Lord
+
+     15.07: Kingmaker Population Limits
+          # of Enemy Lords  Max Peasants  Max Army Size
+                   1            120            500
+                   2            104            433
+                   3            104            400
+                   4             96            380
+                   5             96            366
+                   6             96            357
+                   7             96            350
+
